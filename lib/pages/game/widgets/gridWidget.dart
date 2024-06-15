@@ -98,7 +98,7 @@ class _GridWidgetState extends State<GridWidget> {
           child: CustomText(
             text: text,
             size: 30,
-            color: Colors.white,
+            color: const Color.fromARGB(255, 25, 11, 11),
           ),
         ),
       ],

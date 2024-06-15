@@ -14,10 +14,11 @@ class SiteLayout extends StatelessWidget {
       key: scaffoldKey,
       appBar: AppBar(
         backgroundColor: primaryColor,
-        title: const Text("Puzzle-8"),
+        title: const Text("Puzzle-8",style: TextStyle(color: Colors.white),),
         leading: IconButton(
           icon: Icon(
             Icons.menu,
+            color: Colors.white,
           ),
           onPressed: () {scaffoldKey.currentState!.openDrawer();},
         ),

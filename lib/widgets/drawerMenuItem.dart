@@ -17,7 +17,7 @@ class DrawerMenuItem extends StatelessWidget {
       leading: icon,
       title: CustomText(
         text: itemName,
-        color: drawerItemTextColor,
+        color: Colors.white,
         size: 26,
       ),
     );
