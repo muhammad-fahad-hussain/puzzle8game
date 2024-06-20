@@ -53,7 +53,7 @@ class AboutPage extends StatelessWidget {
     );
   }
   void launchGithubURL() async {
-    const url = 'https://github.com/zurakin/puzzle_8';
+    const url = 'https://github.com/muhammad-fahad-hussain';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
